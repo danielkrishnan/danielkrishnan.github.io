@@ -10,6 +10,20 @@ section {
 
 }
 
+.titles {
+  margin: 0px 0px 0px 40px;
+  
+}
+
+a {
+  color: #000;
+}
+
+.portfolio-links a {
+
+  color: #FFF;
+  }
+
 section > #contact {
   height: 90vh;
   
@@ -58,6 +72,10 @@ form {
 
 textarea {
    resize: none;
+}
+
+#projects {
+	margin: 40px 20px 0px 20px;
 }
 
 
