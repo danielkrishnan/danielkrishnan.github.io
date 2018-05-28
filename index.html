@@ -3,18 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Daniel Krishnan | Portfolio</title>
   
   
-  <link rel='stylesheet' href='css/font-awesome-4.7.0/css/font-awesome.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css'>
-
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css'>
-
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
 
       <link rel="stylesheet" href="css/style.css">
 
@@ -23,178 +16,150 @@
 
 <body>
 
-  <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand scrollable" href="#">Daniel Krishnan</a>
+  <!-- Navigation -->
 
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
+<nav class="navbar" role="navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+    Daniel Krishnan
+    </a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main-nav">
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+</a>
 
-    </div>
+  </div>
 
-    <div class="collapse navbar-collapse" id="myNavbar">
+  <div class="navbar-menu" id="main-nav">
+    <div class="navbar-end">
 
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="#intro">About</a>
-        </li>
-        <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-        <li>
-          <a href="#footer">Follow</a>
-        </li>
-      </ul>
+      <a class="navbar-item" href="/">About</a>
+      <a class="navbar-item" href="/">Portfolio</a>
+      <a class="navbar-item" href="/">Contact</a>
 
     </div>
 
   </div>
 </nav>
 
-<main>
-  <div class="container text-center jumbotron">
-    <section id="intro" class="bg-info centered">
-      <div class="row">
-        <h1 class="col-md-4 col-md-offset-4 font-weight-bold"> Daniel Krishnan </h1>
+<!--Main Title -->
 
-      </div>
-      <h4>
-        <div class="span-12 titles"> <a href="https://github.com/danielkrishnan" alt="Github link"> Web Developer</a> - <a href="https://www.instagram.com/kyngcold/" alt="Instagram link">Audio Engineer</a> - <a href="https://kyngcold.bandcamp.com/" alt="Bandcamp link">Musician</a></div>
-        <h4>
-    </section>
+<div class="hero is-fullheight" id="intro">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="subtitle is-2">Hey! I'm a Front-End Developer from Atlanta, GA.</h1>
+      <p class="is-size-5">Have a project you would like to discuss?</p>
+
+      <p class="is-size-5">Contact me
+        <a href="mailto:danielkrishnan626@gmail.com">danielkrishnan626@gmail.com</a>
+      </p>
+
+    </div>
+
+    <div class="hero_arrow">
+      <a href="#portfolio">
+            <i class="fa fa-angle-down" id="down-arrow" style="font-size:36px"></i>
+
+  </a>
+    </div>
+
   </div>
 
-  <div class="container">
+</div>
 
-    <section id="portfolio" class="bg-primary">
+<!--portfolio section -->
 
-      <h2 class="text-center"> Portfolio </h2>
-	
-	<div class="container">
+<div class="section" id="portfolio">
+  <h1 class="subtitle is-2">Selected Projects</h1>
 
-      <div class="row" id="projects">
-        <div class="col-xs-4">
-        	<h4 class="text-center">Random Quote Machine</h4>
-          <a href="resources/Random Quote Machine small.png" data-toggle="lightbox" data-gallery="web-projects" data-footer="A tool
-          that calls a random quote from the Simpsons">
-      <img class= "img-responsive img-thumbnail" src="resources/Random Quote Machine small.png"></a>
-      		
-      		<h4 class="text-center"> 
-      		<div class="span-12 portfolio-links">
-      		<a target="_blank" href="https://codepen.io/danielkrishnan/full/yjwVKo/"> Try on CodePen </a> -
-      		<a target="_blank" href="https://github.com/danielkrishnan/Random-Quote-Generator"> View on GitHub </a> 
-      		</div>
-      		</h4>
-			
-        </div>
-        <div class="col-xs-4">
-				<h4 class="text-center">Wikipedia Article Search</h4>
-          <a href="resources/Wikipedia Article Search small.png" data-toggle="lightbox" data-gallery="web-projects" data-footer="A tool which 
-          searches Wikipedia for articles contining the given input text">
-        <img class= "img-responsive img-thumbnail" src="resources/Wikipedia Article Search small.png"></a>
-        
-        
-        <h4 class="text-center"> 
-        <div class="span-12 portfolio-links">
-        <a target="_blank" href="https://codepen.io/danielkrishnan/full/LmvVdg/"> Try on CodePen </a> -
-        <a target="_blank" href="https://github.com/danielkrishnan/Wikipedia-Viewer"> View on Github </a> 
-        </div>
-        </h4>
+  <!--Gallery -->
 
-        </div>
-         
-         <div class="col-xs-4">
-				<h4 class="text-center">Gaudy Musician Bio Generator</h4>
-          <a href="resources/Artist Bio Generator small.png" data-toggle="lightbox" data-gallery="web-projects" data-footer="A tool to allow artists to create
-          ridiculously gaudy biographies for themselves.">
-        <img class= "img-responsive img-thumbnail" src="resources/Artist Bio Generator small.png"></a>
-           
-        <h4 class="text-center"> 
-        <div class="span-12 portfolio-links">
-        <a target="_blank" href="https://codepen.io/danielkrishnan/full/vjwNpE/"> Try on CodePen </a> -
-        <a target="_blank" href="https://github.com/danielkrishnan/Musician-Bio-Generator"> View on Github </a> 
-        </div>
-        </h4>
-        
-        </div>
-        
-      </ul>
+  <div class="tile is-ancestor">
+    <div class="tile is-parent">
+      <div class="tile is-child box">
+        <a target = "_blank" href="https://github.com/danielkrishnan/Random-Quote-Generator">
+        <img class="img-responsive img-thumbnail" alt="Random Quote Generator" src="resources/Random Quote Machine small.png">
+      </a>
       </div>
-    </section>
+
+    </div>
+    <div class="tile is-parent">
+      <div class="tile is-child box">
+        <a target="_blank" href="https://github.com/danielkrishnan/quiz">
+
+        <img class="img-responsive img-thumbnail" alt="Quiz Project" src="resources/Quiz.png">
+      </a>
+      </div>
+
+
+    </div>
   </div>
 
-  <div class="container">
-    <section id="contact" class="bg-danger">
-      <div class="row">
+  <div class="tile is-ancestor">
+    <div class="tile is-parent">
 
-        <h2 class="text-center"> Contact Me </h2>
+      <div class="tile is-child box">
+
+        <a target="_blank" href="https://github.com/danielkrishnan/Musician-Bio-Generator">
+      
+        <img class="img-responsive img-thumbnail" alt="Musician Bio Generator" src="resources/Artist Bio Generator small.png">
+      </a>
       </div>
 
-      <div class="row">
 
-        <div class="col-md-4 col-md-offset-4">
+    </div>
+    <div class="tile is-parent">
+      <div class="tile is-child box">
+        
+      <a target="_blank" href="https://github.com/danielkrishnan/Wikipedia-Viewer">
 
-          <form action="mailto:danielkrishnan626@gmail.com" enctype="text/plain">
-            <div class="form-group bg-danger">
-
-              <input class="form-control" type="text" placeholder="Name" required>
-            </div>
-            <div class="form-group">
-              <input class="form-control" type="text" placeholder="Email" required>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" type="text" placeholder="Message" required></textarea>
-            </div>
-
-            <div class="form-actions">
-              <button type="submit" class="btn btn-default">Submit</button>
-            </div>
-
-          </form>
-
-        </div>
+        <img class="img-responsive img-thumbnail" alt="Wikipedia Viewer" src="resources/Wikipedia Article Search small.png">
+      </a>
       </div>
 
-    </section>
+    </div>
   </div>
 
-</main>
+</div>
 
-<footer id="footer" class="bg-secondary">
-  <h3 class="text-center">Follow Me</h3>
-  <div class="text-center">
-    <ul class="list-unstyled list-inline">
+<!--social section -->
 
-      <li class="list-inline-item">
-        <a href="https://twitter.com/kyngcoldmusic
-" class="btn-floating btn-sm btn-tw mx-1">
-                    <i class="fa fa-twitter"> </i>
-                </a>
-      </li>
+<div class="section" id="connect">
+  <div class="columns">
+    <div class="column">
 
-      <li class="list-inline-item">
-        <a href="https://www.linkedin.com/in/daniel-krishnan-919034b8
-" class="btn-floating btn-sm btn-li mx-1">
-                    <i class="fa fa-linkedin"> </i>
-                </a>
-      </li>
+      <h2 class="subtitle is-6 has-text-weight-light">Social</h2>
 
-    </ul>
+      <h1 class="subtitle is-3">Github</h1>
+      <h1 class="subtitle is-3">LinkedIn</h1>
+      <h1 class="subtitle is-3">CodePen</h1>
+
+    </div>
+    <div class="column">
+      <h2 class="subtitle has-text-weight-light">Contact</h2>
+
+      <h2 class="is-size-5">Get in touch: </h2>
+      <a href="mailto:danielkrishnan626@gmail.com">danielkrishnan626@gmail.com</a>
+
+    </div>
+
+  </div>
+
+</div>
+
+<footer class="footer has-background-white">
+
+  <div class="content has-text-centered">
+    <p class="has-text-weight-light">
+      This website was designed by Daniel Krishnan using the Bulma Framework
+
+    </p>
+
   </div>
 
 </footer>
-</body>
-  </body>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js'></script>
 
   
 
