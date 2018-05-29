@@ -18,7 +18,14 @@
   }
 }
 
+/* hide down arrow on mobile screens */
 .hero_arrow {
+  display:none;
+}
+
+@media only screen and (min-width: 768px) {
+.hero_arrow {
+  display: inline-block;
   position: absolute;
   bottom: 1rem;
   left: 1.5rem;
@@ -26,4 +33,5 @@
 
 #down-arrow:hover {
   animation: bounce 1s;
+}
 }
