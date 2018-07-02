@@ -12,6 +12,10 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
 
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /*Ensure elements load before ScrollReveal runs */
+    .sr .reveal {visibility: hidden;}
+  </style>
 
 
 </head>
@@ -49,13 +53,15 @@
 
   <div class="hero is-fullheight" id="intro">
     <div class="hero-body">
-      <div class="container">
-        <h1 class="subtitle is-2">Hey! I'm a Front-End Developer based out of Atlanta, GA.</h1>
-        <p class="is-size-5">Have a project you would like to discuss?</p>
+      <div class="container revealContainer">
+        <h1 class="subtitle is-2 reveal">Hi! My name is Daniel. I'm a Front-End Web Developer.</h1>
+        <p class="is-size-5 reveal">Have a project you would like to discuss?</p>
 
-        <p class="is-size-5">Contact me
+        <p class="is-size-5 reveal">Contact me
           <a href="mailto:danielkrishnan626@gmail.com">danielkrishnan626@gmail.com</a>
         </p>
+
+          <p class="reveal">Check out my work on <a href="https://github.com/danielkrishnan/"> Github</a></p>
 
       </div>
 
@@ -70,6 +76,28 @@
 
   </div>
 
+  <!-- About Me Section
+
+
+  <div class="section hero is-full-height" id="about">
+  <div class="columns revealContainer">
+    <div class="column">
+      <h1 class="subtitle is-2"> Services</h1>
+      <p class="is-size-6">As a front-end developer, I am to offer clients exciting web experiences.</p>
+    </div>
+    <div class="column">
+      <h1 class="subtitle is-2">On the Block</h1>
+      <p class="is-size-6">As a multimedia artist, I am to make you feel something through original sound design and production</p>
+    </div>
+    <div class="column">
+      <h1 class="subtitle is-2">Gettin Cheese</h1>
+      <p class="is-size-6">Together, I make dope shit.</p>
+
+    </div>
+  </div>
+  </div>
+  -->
+
   <!--portfolio section -->
 
   <div class="section" id="portfolio">
@@ -78,51 +106,88 @@
     <!--Gallery -->
 
     <div class="tile is-ancestor">
-      <div class="tile is-parent">
-        <div class="tile is-child box">
-          <a target="_blank" href="https://github.com/danielkrishnan/Random-Quote-Generator">
-            <img class="img-responsive img-thumbnail" alt="Random Quote Generator" src="resources/Random Quote Machine small.png">
-          </a>
+
+        <div class="tile is-parent">
+            <div class="tile is-child">
+                <div class="img-container image">
+                    <a target="_blank" href="https://startupdevelopmentinstitute.com/our-work">
+
+                        <img class="img-responsive img-thumbnail" alt="Startup Development Institute Portfolio" src="resources/sdiport.png">
+                        <div class="overlay">
+                            <div>Portfolio page for the Startup Development Institute</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
-
-      </div>
+        
       <div class="tile is-parent">
-        <div class="tile is-child box">
-          <a target="_blank" href="https://github.com/danielkrishnan/quiz">
-
-            <img class="img-responsive img-thumbnail" alt="Quiz Project" src="resources/Quiz.png">
+        <div class="tile is-child">
+            <div class="img-container image">
+          <a target="_blank" href="https://codepen.io/danielkrishnan/pen/KezYOL">
+            <img class="img-responsive img-thumbnail" alt="Dance Gif Loader" src="resources/dance-challenge-loader.png" />
+            <div class="overlay">
+            	<div>Loading Screen with random gifs and quotes about dancing.</div>
+            </div>
           </a>
+            </div>
         </div>
-
-
       </div>
+
+        <div class="tile is-parent">
+            <div class="tile is-child">
+                <div class="img-container">
+                <a target="_blank" href="http://valetcopter.com">
+
+                    <img class="img-responsive img-thumbnail" alt="Startup Development Institute Portfolio" src="resources/valetcopter.png">
+                    <div class="overlay">
+                        <div>Landing Page for ValetCopter</div>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+      <div class="tile is-ancestor">
+          <div class="tile is-parent">
+              <div class="tile is-child">
+                  <div class="img-container image">
+                      <a target="_blank" href="https://github.com/danielkrishnan/Musician-Bio-Generator">
+                          <img class="img-responsive img-thumbnail" alt="Musician Bio Generator" src="resources/Artist%20Bio%20Generator%20small.png" />
+                          <div class="overlay">
+                              <div>A tool for musicians to generate a random bio for themselves based on basic information.</div>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="tile is-parent">
+              <div class="tile is-child">
+                  <div class="img-container image">
+                      <a target="_blank" href="https://github.com/danielkrishnan/quiz">
+                          <img class="img-responsive img-thumbnail" alt="Random Quote Generator" src="resources/Quiz.png" />
+                          <div class="overlay">
+                              <div>A quiz application written with jQuery.</div>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="tile is-parent">
+              <div class="tile is-child">
+                  <div class="img-container image">
+                      <a target="_blank" href="https://github.com/danielkrishnan/Random-Quote-Generator">
+                          <img class="img-responsive img-thumbnail" alt="Random Quote Generator" src="resources/Random%20Quote%20Machine%20small.png" />
+                          <div class="overlay">
+                              <div>A generator of random quotes from The Simpsons.</div>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
     </div>
-
-    <div class="tile is-ancestor">
-      <div class="tile is-parent">
-
-        <div class="tile is-child box">
-
-          <a target="_blank" href="https://github.com/danielkrishnan/Musician-Bio-Generator">
-
-            <img class="img-responsive img-thumbnail" alt="Musician Bio Generator" src="resources/Artist Bio Generator small.png">
-          </a>
-        </div>
-
-
-      </div>
-      <div class="tile is-parent">
-        <div class="tile is-child box">
-
-          <a target="_blank" href="https://github.com/danielkrishnan/Wikipedia-Viewer">
-
-            <img class="img-responsive img-thumbnail" alt="Wikipedia Viewer" src="resources/Wikipedia Article Search small.png">
-          </a>
-        </div>
-
-      </div>
-    </div>
-
   </div>
 
   <!--social section -->
@@ -171,6 +236,18 @@
   <script src="js/index.js"></script>
 
 
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+  <script>
+      window.sr = ScrollReveal();
+
+      // Add class to <html> if ScrollReveal is supported
+      // Note: this method is deprecated, and only works in version 3
+      if (sr.isSupported()) {
+          document.documentElement.classList.add('sr');
+      }
+      sr.reveal('.reveal', { container: '.revealContainer', duration: 1000, reset: true });
+  </script>
 
 
 </body>
