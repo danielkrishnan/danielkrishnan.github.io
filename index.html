@@ -12,10 +12,7 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
 
   <link rel="stylesheet" href="css/style.css">
-  <style>
-    /*Ensure elements load before ScrollReveal runs */
-    .sr .reveal {visibility: hidden;}
-  </style>
+
 
 
 </head>
@@ -53,15 +50,15 @@
 
   <div class="hero is-fullheight" id="intro">
     <div class="hero-body">
-      <div class="container revealContainer">
+      <div class="container">
         <h1 class="subtitle is-2 reveal">Hi! My name is Daniel. I'm a Front-End Web Developer.</h1>
         <p class="is-size-5 reveal">Have a project you would like to discuss?</p>
 
-        <p class="is-size-5 reveal">Contact me
+        <p class="is-size-5">Contact me
           <a href="mailto:danielkrishnan626@gmail.com">danielkrishnan626@gmail.com</a>
         </p>
 
-          <p class="reveal">Check out my work on <a href="https://github.com/danielkrishnan/"> Github</a></p>
+          <p>Check out my work on <a href="https://github.com/danielkrishnan/"> Github</a></p>
 
       </div>
 
@@ -234,21 +231,6 @@
 
 
   <script src="js/index.js"></script>
-
-
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-  <script>
-      window.sr = ScrollReveal();
-
-      // Add class to <html> if ScrollReveal is supported
-      // Note: this method is deprecated, and only works in version 3
-      if (sr.isSupported()) {
-          document.documentElement.classList.add('sr');
-      }
-      sr.reveal('.reveal', { container: '.revealContainer', duration: 1000, reset: true });
-  </script>
-
 
 </body>
 
